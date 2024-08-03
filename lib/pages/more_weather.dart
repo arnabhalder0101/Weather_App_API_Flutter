@@ -4,7 +4,7 @@ import 'package:weather_app/services/weather_services.dart';
 
 class MoreWeather extends StatelessWidget {
   MoreWeather({super.key});
-  var weather_services = WeatherServices("05609490ba917b2b2f6550df95140755");
+  var weather_services = WeatherServices("API_KEY");
 
   @override
   Widget build(BuildContext context) {
