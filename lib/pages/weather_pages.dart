@@ -14,7 +14,7 @@ class WeatherPages extends StatefulWidget {
 }
 
 class _WeatherPagesState extends State<WeatherPages> {
-  final weather_services = WeatherServices("05609490ba917b2b2f6550df95140755");
+  final weather_services = WeatherServices("API_KEY");
   bool isDarkNeeded = false;
 
   Weathermodel? weather_;
